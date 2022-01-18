@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/reset.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Steven Kravitz's Portfolio</title>
+</head>
+
+<body>
+
+    <header class="heading">
+<!--How do I make the links align on the right side of the header?
+    How to I create scroll down on click features for the links? -->
+        <img src="https://i.imgur.com/XZ4I0Yd.png" alt="SK Initials" class="logo"></img>
+        
+        <ul class="my-links">
+            <li class="about-me"><a href="#about-me-link">About Me</a></li>
+            <li class="my-work">My Work</li>
+            <li class="contact">Contact</li>
+        </ul>
+    </header>
+
+<figure>
+    <img src="https://i.imgur.com/R6Ow7Fm.jpg" alt="Photo of myself" class="self-photo">
+</figure>
+
+<main>
+        <section class="about-me" id="about-me-link">
+            <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dignissimos obcaecati aliquam soluta porro rem illo magni rerum temporibus consequatur blanditiis libero deleniti, corporis fugiat saepe laborum, maiores delectus fuga?</p>
+        </section>
+
+<!--You need to create clickable cards with your works, doesn't need to lead anywhere yet, just use a working HTML so
+you know the link works.-->
+<!--Look up scaling background images in CSS (edit the image size in paint if needed)-->
+        <section class="my-work">
+            <h2>My Work</h2>
+        <article class="work-card" id="main-card">
+            <p class="card-title">A website to grab your favorite CSS codes</p>
+            <h3><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="blank">CSS Snippet Website</a></h3>
+        </article>
+        <article class="work-card">
+            <p class="card-title">CSS Snippet Website</p>
+        </article>
+        <article class="work-card">
+            <p class="card-title">CSS Snippet Website</p>
+        </article>
+        <article class="work-card">
+            <p class="card-title">CSS Snippet Website</p>
+        </article>
+        <article class="work-card">
+            <p class="card-title">CSS Snippet Website</p>
+        </article>
+
+
+
+        </section>
+
+<!--You specifically want to make them all look the same, even if they are links. Get rid of the standard blue text 
+    and underlining for the HTML(Fix this in your reset.css)-->
+        <footer class="contact">
+            <h3>Contact</h3>
+        <article class="contact-info">
+            <a href="mailto:Steven.Kravitz95@gmail.com">Steven.Kravitz95@gmail.com</a>
+            <p>###-###-####</p>
+            <a href="https://www.linkedin.com/in/steven-kravitz-36071022a/">LinkedIn</a>
+        </article>
+        </footer>
+</main>
+    
+</body>
+</html>
