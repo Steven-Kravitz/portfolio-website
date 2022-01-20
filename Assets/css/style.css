@@ -14,6 +14,11 @@ body {
     
 }
 
+.heading a {
+    text-decoration: none;
+    color: rgb(255, 244, 230);
+}
+
 .logo {
     display: flex;
     justify-content: left;
@@ -55,6 +60,14 @@ h2 {
     text-decoration: underline;
 }
 
+h5{
+        font-size: 200%;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-left: 16%;
+
+}
+
 main h2 {
     margin-left: 15%;
     margin-top: 1%;
@@ -85,11 +98,32 @@ h3 {
     display: flex;
     align-items: flex-end;
     justify-content: right;
+    margin: 0% 0% 0% 16%;
     
+}
+
+.contact h5 {
+    border-right: 3px solid black;
+    padding-right: 3px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+    display: inline;
+}
+
+.contact-item {
+    position: relative;
+    margin: 0% 14% 0% 17%;
 }
 
 .my-work {
     display: flex;
+    margin: 2% 0px 2% 0px;
     
 }
 
@@ -98,23 +132,113 @@ h3 {
     padding-right: 2%;
 }
 
+#main-card {
+    background-image: url(https://i.imgur.com/V2MoOll.png);
+    box-shadow: 0px 4px 5px 0px black;
+    border: 3px solid red;
+    transition: 0.4s;
+    min-width: 438px;
+    min-height: 324px;
+    text-align: center;
+    float: left;
+    margin: 2%;
+}
+
+#main-card h3 {
+    margin: auto;
+    position: relatives;
+    display: inline;
+    font-size: 115%;
+}
+
+#card-2 {
+    background-image: url(https://i.imgur.com/y0flVfy.png);
+    min-width: 280px;
+    min-height: 187px;
+}
+
+#card-3 {
+    background-image: url(https://i.imgur.com/W2dC9ZL.png);
+    min-width: 280px;
+    min-height: 187px;
+}
+
+#card-4 {
+    background-image: url(https://i.imgur.com/ohErdpV.png);
+    min-width: 280px;
+    min-height: 187px;
+}
+
+#card-5 {
+    background-image: url(https://i.imgur.com/NiMNROE.png);
+    min-width: 280px;
+    min-height: 187px;
+}
+
+.work-card a {
+    text-decoration: none;
+    color: rgb(255, 244, 230);
+
+}
+
 .work-card {
-    border: 3px solid grey;
-    padding: 0px;
-    margin: 5px;
-    display: flex;
+    border: 3px solid rgb(201, 8, 8);
+    height: 187px;
+    width: 280px;
+    margin: 25px;
     flex-wrap: wrap;
-    background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     flex-direction: row;
-    width: 50%;
-    height: 20%;
     position: relative;
 }
 
-.card-title {
+#later-work .card-title {
+
+    background-image: url(https://image.shutterstock.com/image-photo/blue-painted-canvas-muslin-fabric-260nw-557539213.jpg);
     border: 2px solid white;
-    padding: 5px;
-    margin-right: -20px;
+    padding: 0px;
+    margin: 13px;
+    height: 26px;
     display: flex;
+    justify-content: left;
+    /* text-align: center; */
+    font-size: 2vh;
     position: relative;
+    margin-top: 167px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    flex: 1;
+    width: fit-content;
+    color: rgb(255, 244, 230);
+
 }
+
+
+#main-card .card-title {
+    background-image: url(https://image.shutterstock.com/image-photo/blue-painted-canvas-muslin-fabric-260nw-557539213.jpg);
+    border: 2px solid white;
+    padding: 4px;
+    margin: -41px;
+    display: flex;
+    justify-content: left;
+    /* text-align: center; */
+    font-size: 2vh;
+    position: relative;
+    margin-top: 195px;
+    margin-right: 0px;
+    margin-bottom: auto;
+    flex: 1;
+    width: 20%;
+}
+
+@media screen and (max-width: 992px){
+    .work-card {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-card {
+      width: 100%;
+    }
+    
+  }
