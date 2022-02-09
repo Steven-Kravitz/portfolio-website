@@ -111,7 +111,7 @@ h3 {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    margin: 0% 0% 0% 0%;
+    margin: 0% 2% 0% 2%;
     position: relative;
     display: inline;
 }
@@ -133,7 +133,7 @@ h3 {
 }
 
 #main-card {
-    background-image: url(https://i.imgur.com/V2MoOll.png);
+    background-image: url(https://i.pinimg.com/originals/72/51/23/72512323b7eb9405b94935b7d4fd9aeb.gif);
     box-shadow: 0px 4px 5px 0px black;
     border: 3px solid red;
     transition: 0.4s;
@@ -164,7 +164,7 @@ h3 {
 }
 
 #card-4 {
-    background-image: url(https://i.imgur.com/ohErdpV.png);
+    background-image: url(https://i.imgur.com/V2MoOll.png);
     min-width: 280px;
     min-height: 187px;
 }
