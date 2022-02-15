@@ -118,7 +118,7 @@ h3 {
 
 .contact-item {
     position: relative;
-    margin: 0% 14% 0% 17%;
+    margin: 0% 7% 0% 7%;
 }
 
 .my-work {
@@ -187,8 +187,6 @@ h3 {
     width: 280px;
     margin: 25px;
     flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;
 }
 
 #later-work .card-title {
@@ -236,7 +234,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 497px) {
     .work-card {
       width: 100%;
     }
